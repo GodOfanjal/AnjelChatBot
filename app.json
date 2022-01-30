@@ -1,6 +1,7 @@
 {
-  "name": "Luna The Chat Bot",
+  "name": "Anjel The Chat Bot",
   "description": "Just another Telegram AI chat bot written in Python using Pyrogram.",
+  "logo": "https://telegra.ph/file/dcaf78e7cbd527013194c.jpg",
   "repository": "https://github.com/Godofanjal/AnjalChatBot",
   "keywords" : [
     "python",
