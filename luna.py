@@ -61,7 +61,7 @@ async def repo(_, message):
         disable_web_page_preview=False,
     )
 
-@luna.on_message(filters.command(["chatbot", f"chatbot@{U}"]))
+@luna.on_message(filters.command(["chatbot", f"chatbot@{u}"]))
 async def repo(_, message):
     await message.reply_text("Hey I am Anjel")    
 
