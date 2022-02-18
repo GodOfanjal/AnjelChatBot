@@ -1,4 +1,3 @@
-import constants as keys
 from telegram.ext import *
 import responces as responce
 
