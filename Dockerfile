@@ -12,5 +12,5 @@ RUN pip3 install -U pip
 COPY . .
 RUN pip3 install -U -r requirements.txt
 
-# Running Luna
-CMD ["python3","luna.py"]
+# Running Bot
+CMD ["python3","bot.py"]
