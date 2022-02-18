@@ -2,7 +2,7 @@ import os
 
 API_KEY = os.getenv('API_KEY')
 
-@luna.on_message(filters.command(["start", f"start@{U}"]))
+sent.on_message(filters.command(["start", f"start@{U}"]))
 async def repo(_, message):
     await message.reply_text("irukan")    
 
