@@ -18,6 +18,3 @@ def handle_message(update, context):
     responce = R.sample_responces(text)
 
     update.message.reply_text(responce)
-
-
-def error(update, context):
