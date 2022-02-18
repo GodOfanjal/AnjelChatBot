@@ -1,5 +1,5 @@
 import os
-import telegrambot
+import pgram
 
 API_KEY = os.getenv('API_KEY')
 bot = telebot.telebot(API_KEY)
