@@ -2,7 +2,7 @@ import os
 
 API_KEY = os.getenv('API_KEY')
 
-message(filters.command(["start", f"start@{U}"]))
+textmessage(filters.command(["start", f"start@{U}"]))
 async def repo(_, message):
     await message.reply_text("irukan")    
 
