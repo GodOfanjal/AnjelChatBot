@@ -10,7 +10,7 @@ def start_command(update, context):
 
 
 def help_command(update, context):
-    update.message.reply_text(message, 'i can't help you')
+    update.message.reply_text(message, 'no')
 
 
 def handle_message(update, context):
