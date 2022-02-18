@@ -1,8 +1,8 @@
 {
-  "name": "Anjel The Chat Bot",
+  "name": "test Bot",
   "description": "Just another Telegram AI chat bot written in Python using Pyrogram.",
   "logo": "https://telegra.ph/file/dcaf78e7cbd527013194c.jpg",
-  "repository": "https://github.com/Godofanjal/AnjalChatBot",
+  "repository": "https://github.com/Godofanjal/test",
   "keywords" : [
     "python",
     "ai-bot",
