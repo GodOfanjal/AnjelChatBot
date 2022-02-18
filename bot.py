@@ -6,11 +6,11 @@ print("Bot started...")
 
 
 def start_command(update, context):
-    update.message.reply_text('irukan')
+    update.message.reply_text(message, 'irukan')
 
 
 def help_command(update, context):
-    update.message.reply_text('i can't help you')
+    update.message.reply_text(message, 'i can't help you')
 
 
 def handle_message(update, context):
