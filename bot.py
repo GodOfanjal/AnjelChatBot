@@ -2,11 +2,26 @@ import os
 
 API_KEY = os.getenv('API_KEY')
 
-__command_list__ = [
-    "start",
-]
+@bot.on_message(filters.command(["start", f"start@{U}"]))
+async def repo(_, message):
+    await message.reply_text("irukan")    
 
-def start(message):
-  bot.reply_text(message, "irukan")
-  
-  bot.pulling()
+    bot.pulling()
+
+    await bot.start()
+    print(
+        """
+-----------------
+| bot Started! |
+-----------------
+"""
+    )
+    await idle()
+
+loop = get_event_loop()
+loop.run_until_complete(main())
+
+
+
+
+
